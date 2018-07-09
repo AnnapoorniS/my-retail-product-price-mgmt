@@ -49,9 +49,9 @@ Required Headers :
 	Authorization = "Bearer -accessToken-"
 ________________________________________________________________________________________________________________________________________________________________________
 
-2) GET /products/prices/<productId>
+2) GET /products/prices/"productId"
 	
-Description : This will respond with the price details of the product with id <productId>
+Description : This will respond with the price details of the product with id "productId"
 
 Required Headers :
 	Accept = "application/json"
@@ -96,9 +96,9 @@ Request Body :
         }
     }
 _____________________________________________________________________________________________________________________________________________________________________
-5) DELETE /products/prices/<productId>
+5) DELETE /products/prices/"productId"
 	
-Description : This will delete the product price details of the product with an Id <productId>
+Description : This will delete the product price details of the product with an Id "productId"
 
 Required Headers :
 	Authorization = "Bearer -accessToken-"
